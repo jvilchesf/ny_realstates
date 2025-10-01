@@ -3,11 +3,19 @@
 Interactive data visualization and analysis of New York City real estate trends using DOB (Department of Buildings) job application filings data.
 
 [![Tableau Dashboard](https://img.shields.io/badge/Tableau-Dashboard-blue)](https://public.tableau.com/app/profile/jose.miguel.vilches.fierro/viz/Job_application_filling/Dashboard1)
+[![Python](https://img.shields.io/badge/Python-3.8+-green)](https://www.python.org/)
 
 ## 📊 Project Overview
 
 This project explores and visualizes real estate trends in New York City to help building owners, prospective buyers, and other stakeholders understand current market dynamics, regulatory approvals, and construction activities. By leveraging publicly available datasets from NYC Open Data, the analysis sheds light on how economic conditions, city policies, and neighborhood characteristics influence the permitting process and building trends throughout NYC.
 
+### Target Audience
+
+- Real estate professionals and investors
+- Building owners and property managers
+- NYC residents interested in neighborhood development
+- Data analysts and researchers studying urban development
+- Policymakers and urban planners
 
 ## 🎯 Key Features
 
@@ -88,8 +96,6 @@ nyc-real-estate-trends/
 │   └── data_processing.py            # Python script for ETL pipeline
 ├── notebooks/
 │   └── exploratory_analysis.ipynb    # Jupyter notebook for exploration
-├── docs/
-│   └── methodology.md                # Detailed methodology documentation
 └── requirements.txt                  # Python dependencies
 ```
 
@@ -173,38 +179,3 @@ The dashboard enables users to:
 
 **Solution**: Extensive data exploration combined with stakeholder communication to clarify data elements and align with business objectives.
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👤 Author
-
-**Jose Miguel Vilches Fierro**
-
-- Portfolio: [jvilchesf.github.io](https://jvilchesf.github.io/portfolio.github.io/)
-- Tableau Profile: [View Profile](https://public.tableau.com/app/profile/jose.miguel.vilches.fierro)
-- GitHub: [@jvilchesf](https://github.com/jvilchesf)
-
-## 🙏 Acknowledgments
-
-- NYC Open Data for providing public access to DOB datasets
-- Tableau Public for free visualization platform
-- Python community for excellent data science libraries
-
-## 📞 Contact
-
-For questions, suggestions, or collaboration opportunities, please open an issue in this repository or reach out through my portfolio website.
-
----
-
-**Note**: Due to confidentiality considerations, any proprietary datasets are not included in this repository. All analysis uses publicly available data from NYC Open Data, with personal identifying information (PII) masked per data privacy regulations.
